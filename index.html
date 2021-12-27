@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>parallax horizontal scrolling effect</title>
+</head>
+<body>
+    <aside class="helper"> parallax horizontal scrolling effect</aside>
+    <script src="https://cdn.rawgit.com/dixonandmoe/rellax/master/rellax.min.js"></script>
+    <main>
+        <figure class="rellax">
+            <img src="images/beach1.png" alt="beach">
+            <figcaption class="rellax" data-rellax-speed="1">calm your soul</figcaption>
+        </figure>
+        <figure class="rellax">
+            <img src="images/bloom1.jpg" alt="sunflower">
+            <figcaption class="rellax" data-rellax-speed="1">blooming flower</figcaption>
+        </figure>
+        <figure class="rellax">
+            <img src="images/evening.jpg" alt="evening">
+            <figcaption class="rellax" data-rellax-speed="1">evening is beauty</figcaption>
+        </figure>
+        <figure class="rellax">
+            <img src="images/bappa1.jpg" alt="lord ganesha">
+            <figcaption class="rellax" data-rellax-speed="1">the almighty</figcaption>
+        </figure>
+        <figure class="rellax">
+            <img src="images/hope1.jpg" alt="beach">
+            <figcaption class="rellax" data-rellax-speed="1">fly high</figcaption>
+        </figure>
+        <figure class="rellax">
+            <img src="images/crensantmoon.jpg" alt="night">
+            <figcaption class="rellax" data-rellax-speed="1">night beautified by moonlight </figcaption>
+        </figure>
+    </main>
+    <script>
+        var rellax = new Rellax('.rellax',{horizontal:true,vertical:false,speed:1.5});
+    </script>
+</body>
+</html>
